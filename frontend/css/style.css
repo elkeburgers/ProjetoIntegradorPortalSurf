@@ -1,0 +1,566 @@
+* {
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* css para header */
+header img {
+    width: 150px;
+    margin-top: 20px;
+}
+
+header form {
+    text-shadow: #bbb6b6 2px 2px 2px;
+}
+
+#headerNavbar {
+    text-decoration: none;
+    font-weight: 500;
+    /* text-shadow: #bbb6b6 2px 2px 2px; */
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* css para footer */
+footer {
+    background-color: #dceaec;
+    margin-top: 0%;
+    height: 300px;
+    margin-bottom: 0%;
+}
+
+footer p {
+    color: #140b63;
+}
+
+/* #footerlogo {
+    display: flex;
+    justify-content: center;
+} */
+
+footer img {
+    height: 120px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+}
+
+
+/* css para home - index */
+.homeBanner {
+    height: 550px;
+}
+
+.indexH2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+    /* position: absolute; */
+}
+
+.indexP {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+#carousel_1 {
+    background-image: url('../imagens/img-home/carousel_1.png');
+    height: 450px;
+}
+
+#carousel_2 {
+    background-image: url('../imagens/img-home/carousel_2.png');
+    height: 450px;
+    background-position: bottom;
+}
+
+#carousel_3 {
+    background-image: url('../imagens/img-home/carousel_3.png');
+    height: 450px;
+}
+
+
+
+/* css para pagina previsao */
+.previsaoBanner {
+    background-image: url("../imagens/img-home/carousel_1.png");
+    background-size: cover;
+    background-position: bottom;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+
+/* css para pagina carona */
+.caronaBanner {
+    background-image: url("../imagens/img-home/carousel_2.png");
+    background-size: cover;
+    background-position: bottom;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.caronaTextoBanner {
+    color: #ffffffe1;
+    font-family: Stencil Std, fantasy;
+    font-size: 100px;
+    filter: drop-shadow(31px 22px 12px black);
+    width: 554px;
+    height: 100px;
+    text-align: center;
+}
+
+
+
+/* css para desapego */
+.despegoBanner {
+    background-image: url("../imagens/img-desapego/banner4.png");
+    background-position-y: 1px;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frontBanner-vermelho {
+    background: rgba(94, 0, 19, 0.5) 0% 0% no-repeat padding-box;
+    border: 1px solid rgba(112, 112, 112, 1);
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.textoBanner {
+    color: #ffffffe1;
+    font-family: Stencil Std, fantasy;
+    font-size: 100px;
+    filter: drop-shadow(31px 22px 12px black);
+    width: 554px;
+    height: 119px;
+    text-align: center;
+}
+
+.imagem-desapego {
+    width: 25vw;
+    height: 40vh;
+    border: 4px solid #1f4ea5;
+    border-radius: 30px;
+}
+
+#desapego {
+    height: 78vh;
+    display: flex;
+}
+
+#desapegar {
+    height: 33vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.texto-card-desapego {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.img-oferta-individual {
+    width: 50vw;
+}
+
+.link-desapego {
+    text-decoration: none;
+}
+
+.imagem-desapegar {
+    border: 4px solid #1f4ea5;
+    border-radius: 30px;
+}
+
+
+
+
+/* css oferta desapego */
+
+.img-ofertaDesapego {
+    width: 537px;
+    height: 181px;
+    margin-top: 34px;
+    justify-content: center;
+    border-top-color: none;
+}
+
+.img-ofertaDesapego:hover {
+
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    border-top-color: black;
+}
+
+.img-ofertaDesapegoHistorico {
+    width: 537px;
+    height: 230px;
+    margin-top: 34px;
+    justify-content: center;
+}
+
+
+/* css para pagina encontre */
+.frontBanner-azul {
+    background: transparent linear-gradient(180deg, #1E4256D4 0%, #032C808C 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.encontreBanner {
+    background-image: url("../imagens/img-encontre/surfboard.jpg");
+    background-size: cover;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-position-y: -297px;
+}
+
+.encontreBotao {
+    background-color: #1E4256;
+    color: #FFF;
+}
+
+
+
+/* css para pagina blog */
+.blogBanner {
+    background-image: url("../imagens/img-blog/surfers.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 33vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position-y: -297px;
+}
+
+.cardBlogGeral {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+}
+
+.cardBlog {
+    border: 2px solid #1f4ea5;
+    border-radius: 30px;
+}
+
+.textoCardBlog {
+    text-decoration-style: none;
+    color: #1f4ea5;
+}
+
+
+
+/* css para pagina noticias */
+.noticiasBanner {
+    background-image: url("../imagens/img-noticias/pranchaPaisagem.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+/* css para pagina previsao */
+#previsaoBanner {
+    background-image: url("../imagens/img-previsao/previgraca.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.botaoAzul {
+    background: rgba(7, 237, 243, 1) 0% 0% no-repeat padding-box;
+    border: 1px solid rgba(195, 221, 255, 1);
+    opacity: 1;
+    font-weight: bold;
+    color: #FFF;
+    font-style: italic;
+}
+
+
+@media (max-width: 1200px) {
+    #encontreBanner {
+        background-image: url("../imagens/img-encontre/surfboard.jpg") center center;
+        height: 20%;
+        /* justify-content: center;
+        align-items: center;
+        display: flex; */
+    }
+    .encontreTextoBanner {
+        color: #ffffffe1;
+        font-family: Stencil Std, fantasy;
+        font-size: 5rem;
+        filter: drop-shadow(31px 22px 12px black);
+        width: 321px;
+        height: 298px;
+        text-align: center;
+        display: flex;
+    }
+    .encontreTitulo {
+        width: 90%;
+        font-size: 2rem;
+    }
+    .encontreMobile {
+        display: none;
+    }
+
+    .cards-desapego {
+        flex-wrap: wrap;
+        display: flex;
+    }
+    #desapego {
+        height: 45vh;
+    }
+    .imagem-desapego {
+        height: 25vh;
+        width: 100%;
+    }
+
+    .desapego-oferta {
+        height: 91vh;
+    }
+
+    .ofertaIndivid {
+        flex-direction: wrap;
+    }
+
+
+
+    @media (max-width: 768px) {
+        #headerBuscaMobile{
+            display: none;
+        }
+        /* .headerLogoMobile{
+            display: flex;
+            justify-items: center;
+        } */
+        .headerLoginMobile{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+        }
+
+        #footerContatoMobile{
+            display: none;
+        }
+        .footerlogo{
+            display: none;
+        }
+
+        .encontreBanner {
+            display: none;
+            /* background-image: none;
+            background-color: #1E4256;
+            height: 2%; */
+        }
+        /* .encontreTextoBanner {
+            color: #1E4256;
+            font-size: 0%;
+            filter: none;
+            width: 0%;
+            height: 0%;
+        } */
+        .encontreTitulo {
+            width: 65%;
+            font-size: 1.5rem;
+        }
+        .encontreMobile {
+            display: none;
+        }
+
+        .caronaBanner{
+            display: none;
+        }
+
+
+        .blogMobile {
+            display: none;
+        }
+        .blogBanner{
+            display: none;
+        }
+
+
+        .noticiasBanner{
+            display: none;
+        }
+
+
+        .despegoBanner {
+            display: none;
+        }
+        .cards-desapego {
+            flex-direction: column;
+            display: flex;
+        }
+        #desapego {
+            height: 120vh;
+        }
+        #desapegar {
+            height: 47vh;
+        }
+        .imagem-desapego {
+            width: 100%;
+        }
+        .texto-card-desapego h2 {
+            font-size: 2em;
+        }
+        .texto-card-desapego h3 {
+            font-size: 1.8em;
+        }
+
+        .desapego-oferta {
+            height: 110vh;
+        }
+        .historico-caronas{
+            display: none;
+        }
+
+    }
+
+
+    @media (max-width: 480px) {
+        .encontreBanner {
+            display: none;
+        }
+        .encontreTitulo {
+            width: 80%;
+            font-size: 1.5rem;
+        }
+        .encontreMobile {
+            display: none;
+        }
+
+        .blogMobile {
+            display: none;
+        }
+
+        #desapego {
+            height: 146vh;
+        }
+
+        #desapegar {
+            height: 46vh;
+        }
+
+        .texto-card-desapego h2 {
+            font-size: 1.7em;
+        }
+
+        .texto-card-desapego h3 {
+            font-size: 1.5em;
+        }
+
+        .cards-desapego {
+            flex-direction: column;
+            display: flex;
+        }
+
+        .desapego-oferta {
+            height: 337vh;
+        }
+
+        .img-ofertaDesapego {
+            height: 452px;
+        }
+        .historico-caronas{
+            display: none;
+        }
+    }
+
+
+    /* responsivo Encontre */
+    @media (max-width: 375px) {
+        #desapego {
+            height: 144vh;
+        }
+
+        #desapegar {
+            height: 57vh;
+        }
+
+        .cards-desapego {
+            flex-direction: column;
+            display: flex;
+        }
+
+        .desapego-oferta {
+            height: 318vh;
+        }
+
+        .img-ofertaDesapego {
+            height: 452px;
+        }
+        .historico-caronas{
+            display: none;
+        }
+    }
+
+
+    /* responsivo Desapego */
+    @media (max-width: 320px) {
+        #desapego {
+            height: 182vh;
+        }
+
+        #desapegar {
+            height: 76vh;
+        }
+
+        .cards-desapego {
+            flex-direction: column;
+            display: flex;
+        }
+
+        .desapego-oferta {
+            height: 355vh;
+        }
+        .historico-caronas{
+            display: none;
+        }
+    }
