@@ -24,7 +24,7 @@ Previsão
             <div class="card-deck">
                 
                 <div class="card">
-                    <a href="/previsaoRiviera">
+                    <a href="/previsao/praia">
                         <img src="imagens/img-previsao/riviera.png" class="card-img-top" alt="onda de riviera"></a>
                     <div class="card-body">
                         <h5 class="card-title">Riviera</h5>
@@ -37,7 +37,7 @@ Previsão
                 </div>
                 
                 <div class="card">
-                    <a href="/previsaoRiviera">
+                    <a href="/previsao/praia">
                         <img src="imagens/img-previsao/surfmaresias.png" class="card-img-top" alt="..."></a>
                     <div class="card-body">
                         <h5 class="card-title">Maresias</h5>
@@ -50,7 +50,7 @@ Previsão
                 </div>
                 
                 <div class="card">
-                    <a href="/previsaoRiviera">
+                    <a href="/previsao/praia">
                         <img src="imagens/img-previsao/pauba.jpg" class="card-img-top" alt="..."></a>
                     <div class="card-body">
                         <h5 class="card-title">Paúba</h5>
@@ -64,9 +64,9 @@ Previsão
                 
                 <div class="container mt-5">
                     <div class="card-deck">
-                        
+            
                         <div class="card">
-                            <a href="/previsaoRiviera">
+                            <a href="/previsao/praia">
                                 <img src="imagens/img-previsao/baleia.jpeg" class="card-img-top"
                                     alt="onda de riviera"></a>
                             <div class="card-body">
@@ -80,7 +80,7 @@ Previsão
                         </div>
                         
                         <div class="card">
-                            <a href="/previsaoRiviera">
+                            <a href="/previsao/praia">
                                 <img src="imagens/img-previsao/barradouna.jpg" class="card-img-top" alt="..."></a>
                             <div class="card-body">
                                 <h5 class="card-title">Barra do Una</h5>
@@ -93,7 +93,7 @@ Previsão
                         </div>
                         
                         <div class="card">
-                            <a href="/previsaoRiviera">
+                            <a href="/previsao/praia">
                                 <img src="imagens/img-previsao/guaeca.jpeg" class="card-img-top" alt="..."></a>
                             <div class="card-body">
                                 <h5 class="card-title">Guaecá</h5>
@@ -109,7 +109,7 @@ Previsão
                             <div class="card-deck">
                         
                                 <div class="card">
-                                    <a href="/previsaoRiviera">
+                                    <a href="/previsao/praia">
                                         <img src="imagens/img-previsao/juquehy.jpg" class="card-img-top"
                                             alt="onda de riviera"></a>
                                     <div class="card-body">
@@ -123,7 +123,7 @@ Previsão
                                 </div>
                                 
                                 <div class="card">
-                                    <a href="/previsaoRiviera">
+                                    <a href="/previsao/praia">
                                         <img src="imagens/img-previsao/surfmaresias.png" class="card-img-top" alt="..."></a>
                                         <div class="card-body">
                                             <h5 class="card-title">Santiago</h5>
@@ -135,7 +135,7 @@ Previsão
                                 </div>
 
                                 <div class="card">
-                                    <a href="/previsaoRiviera">
+                                    <a href="/previsao/praia">
                                         <img src="imagens/img-previsao/pauba.jpg" class="card-img-top" alt="...">
                                         <div class="card-body"></a>
                                             <h5 class="card-title">Cambury</h5>

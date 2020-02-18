@@ -23,7 +23,7 @@ Riviera
 <section class="container mt-5 mb-2">
     <div class="row mt-5">
         <div class="col-xl-5 col-lg-6 col-md-12 col-sm-12">
-            <img src="imagens/img-previsao/riviera.png" class="img-fluid mb-3" stylealt="responsive image">
+            <img src="../imagens/img-previsao/riviera.png" class="img-fluid mb-3" stylealt="responsive image">
         </div>
         <div class="col-xl-7 col-lg-6 col-md-12 col-sm-12">
             <p>As melhores valas encontram-se nos dois extremos, sobretudo no canto direito.</p>
@@ -44,21 +44,21 @@ Riviera
 <section class="bg-light pt-2 pb-3">
     <div class="container mt-3 mb-2">
         <h4>Condições atuais:</h4>
-        <img src="imagens/img-previsao/prevdia.png" class="img-fluid" alt="condicoes atuais">
+        <img src="../imagens/img-previsao/prevdia.png" class="img-fluid" alt="condicoes atuais">
     </div>
 </section>
 
 <!-- previsao do proximos sete dias -->
 <div class="container mt-4 mb-2">
     <h4>Previsão dos próximos 7 dias:</h4>
-    <img src="imagens/img-previsao/previsurf.png" class="img-fluid" alt="condicoes atuais">
+    <img src="../imagens/img-previsao/previsurf.png" class="img-fluid" alt="condicoes atuais">
 </div>
 
 <!-- mapa oceanografico -->
 <section class="bg-light pt-2 pb-3">
     <div class="container justify-content-center mt-2 mb-2">
         <h4>Pra quem manja:</h4>
-        <img src="imagens/img-previsao/manja.png" class="img-fluid" alt="condicoes atuais">
+        <img src="../imagens/img-previsao/manja.png" class="img-fluid" alt="condicoes atuais">
     </div>
 </section>
 
