@@ -9,7 +9,7 @@ Previsão
 <section class="d-flex">
     <div id="previsaoBanner">
         <div class="frontBanner">
-            <h1 class="mx-auto caronaTextoBanner">Previsão</h1>
+            <h1 class="mx-auto textoBanner">Previsão</h1>
         </div>
     </div>
 </section>

@@ -9,7 +9,7 @@ Blog
 <div class="d-flex">
     <div class="blogBanner">
         <div class="frontBanner">
-            <h1 class="mx-auto caronaTextoBanner">Blog</h1>
+            <h1 class="mx-auto textoBanner">Blog</h1>
         </div>
     </div>
 </div>
@@ -37,8 +37,8 @@ Blog
 
 <!-- botao retornar e  topo -->
 <div class="container text-center mb-5">
-    <a href="/blog" class="btn encontreBotao">Voltar</a>
-    <a href="#blogTopo" class="btn encontreBotao">Topo</a>
+    <a href="/blog" class="btn btnSurf">Voltar</a>
+    <a href="#blogTopo" class="btn btnSurf">Topo</a>
 </div>
 
 @endsection

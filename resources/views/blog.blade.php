@@ -9,7 +9,7 @@
 <section class= "d-flex">
     <div class="blogBanner">
         <div class = "frontBanner">
-            <h1 class="mx-auto caronaTextoBanner">Blog</h1>
+            <h1 class="mx-auto textoBanner">Blog</h1>
         </div>
     </div>
 </section>
@@ -58,7 +58,7 @@
     <div class="cardBlogGeral">
         <div class="card-body shadow-lg cardBlog row no-gutters">
             <div class="col-4 blogMobile">
-                <img class="card-img-left imgCardBlog"" src="./imagens/img-encontre/surfboard.jpg"
+                <img class="card-img-left imgCardBlog" src="./imagens/img-encontre/surfboard.jpg"
                     alt="Shaper de Itanhaem">
             </div>
             <div class="col-8">
@@ -91,6 +91,6 @@
 
 <!-- botao topo -->
 <div class="container text-center mb-5">
-    <a href="#blogTopo" class="btn encontreBotao">Topo</a>
+    <a href="#blogTopo" class="btn btnSurf">Topo</a>
 </div>
 @endsection

@@ -8,21 +8,20 @@ Desapego Oferta
     <section class="d-flex">
         <div class="despegoBannerIndividual">
             <div class = "frontBanner">
-                <h1 class="caronaTextoBanner">Estão Desapegando</h1>
+                <h1 class="textoBanner">Estão Desapegando</h1>
             </div>
         </div>
     </section>
-    <section class="d-flex p-3 justify-content-center ofertaIndivid">
-       
+
+    <section class="d-flex p-3 justify-content-center ofertaIndivid"> 
             <div class="d-flex p-3" style="margin-top: 18px;">
+
                 @foreach($ofertas as $oferta)
                 
                     <div class="row col-xl-6 col-lg-12 col-sm-12 w-50 h-50  mr-5" >
                         <img src="{{asset('storage/'.$oferta->image)}}" class="img-fluid img-oferta-individual">
-                    </div>
-                   
+                    </div>     
                  
-            
                     <!-- informacoes oferta -->
                     <div class="row col-xl-6 col-lg-12 col-sm-12 d-flex flex-column" style="
     color: #255f85;">
@@ -37,7 +36,6 @@ Desapego Oferta
                         
                         <strong><h5 class="card-text  font-weight-bold">Fone: {{$oferta->phone}}</h5></strong>
 
-
                     </div>
                 @endforeach        
             </div>
@@ -47,8 +45,7 @@ Desapego Oferta
         <!-- botão voltar -->
         <div class="container text-center mt-5 mb-5">
             <!-- botao voltar -->
-            <a href='/desapego'><button class='btn encontreBotao'>Voltar</button></a>
+            <a href='/desapego'><button class='btn btnSurf'>Voltar</button></a>
         </div>
-
 
 @endsection

@@ -64,7 +64,7 @@ Riviera
 
 <!-- botao topo -->
 <div class="container text-center mt-2 mb-5">
-    <a href="#rivieraTopo" class="btn encontreBotao">Topo</a>
+    <a href="#rivieraTopo" class="btn btnSurf">Topo</a>
 </div>
 
 <script src="../js/previsaoTeste.js"></script>

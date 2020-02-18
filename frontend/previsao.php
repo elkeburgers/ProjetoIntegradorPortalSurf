@@ -21,7 +21,7 @@
         <!-- banner -->
         <div>
             <div class="previsaoBanner">
-                <h1 class="mx-auto caronaTextoBanner">Previsão</h1>
+                <h1 class="mx-auto textoBanner">Previsão</h1>
             </div>
         </div>
 

@@ -9,8 +9,6 @@ Desapego - Cadastro de Oferta
 
 <section class="desapegoCadastro container">
 
-
-
     <!-- formulario de cadastro de oferta -->
     <form action="{{route('ofertaDesapego.store')}}" method="POST" class="shadow-lg p-4 formDesapego"
         enctype="multipart/form-data" name="desapegoFormJavascript">
@@ -21,7 +19,6 @@ Desapego - Cadastro de Oferta
             {{session('erro')}}
         </div>
         @endif
-
 
         <h1 class="mt-2 text-center" id="ofertaCadastroTopo">Cadastro de Oferta</h1>
         <br>
@@ -71,18 +68,16 @@ Desapego - Cadastro de Oferta
                         <input type="file" class="form-control" name="image" placeholder="Imagem do Produto" />
                     </div>
                     <br><br>
-
       
-            <input type="submit" value="Cadastrar Oferta" class="btn encontreBotao" onclick="return validar_desapegoFormJavascript()">
+            <input type="submit" value="Cadastrar Oferta" class="btn btnSurf" onclick="return validar_desapegoFormJavascript()">
             <a href="/desapego" class="btn btn-danger">Cancelar</a>
 
     </form>
-    
 </section>
 
 <!-- botao topo -->
 <div class="container text-center mt-5 mb-5">
-    <a href="#ofertaCadastroTopo" class="btn encontreBotao">Topo</a>
+    <a href="#ofertaCadastroTopo" class="btn btnSurf">Topo</a>
 </div>
 
 
@@ -127,8 +122,6 @@ Desapego - Cadastro de Oferta
             return false;
         }
     }
-
 </script>
-
 
 @endsection

@@ -1,3 +1,4 @@
+/* Estilo geral do portal */
 * {
     box-sizing: border-box;
 }
@@ -7,15 +8,24 @@ a{
     color: black;
 }
 
-.menuHeader a:hover{
-    color: #b8f500;
-    text-decoration: none;
-}
-
-
-/* css para header */
 body{
     font-family: cocogoose;
+}
+
+.btnSurf {
+    background-color: #214dab;
+    color: #FFF;
+}
+
+.frontBanner{
+    background: rgba(0, 33, 94, 0.4) 0% 0% no-repeat padding-box;
+    border: 1px solid rgba(112, 112, 112, 1);
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @font-face{
@@ -84,19 +94,44 @@ body{
     src: url('/font/Cocogoose Pro UltraLight Italic-trial.ttf')
 }
 
-.contato{
-    height: 7vh;
-    background-color: #cecece;
-    align-items: center;
+
+/* .textoBanner {
+    color: #ffffffe1;
+    font-family: Stencil Std, fantasy;
+    font-size: 79px;
+    filter: drop-shadow(31px 22px 12px black);
+    width: 566px;
+    height: 94px;
+    text-align: center;
+    justify-content: center;
+} */
+
+/* .caronaTextoBanner { */
+.textoBanner {
+    color: #ffffffe1;
+    font-size: 4.6rem;
+    filter: drop-shadow(31px 22px 12px black);
+    width: 899px;
+    height: 100px;
+    text-align: center;
 }
 
+
+
+/* css para template surf*/
 .divNav{
     border-bottom: 2px solid #245371;
-    /* box-shadow: 0px 1px 2px black; */
     position: fixed;
     z-index: 99;
     width: 100vw;
     height: 14vh;
+}
+
+#logo{
+    height: 12vh;
+    width: 13vw;
+    margin-right: 23px;
+    margin-left: 41px;
 }
 
 .cabecario{
@@ -104,8 +139,6 @@ body{
     display: flex;
     align-items: center;
     height: 12vh;
-    /* z-index: 99; */
-    /* position:fixed; */
     margin-top: 0px;
     justify-content: space-between;
     padding: 10px;
@@ -119,46 +152,48 @@ body{
     align-items: center;
 }
 
-
-
 nav ul li a{
     color: #245b7e;
     font-size: 0.85rem;
     font-weight: bold;
-    /* font-family: "roboto-light"; */
-    /* text-transform: uppercase; */
-    /* text-shadow: #000 1px 0px 3px; */
 }
 
 li a{
     color: lawngreen;
 }
 
+#botaoHeader1{
+    background-color: #ff8f04;
+    border: #ff8f04;
+ }
+ 
+ #botaoHeader2{
+     background-color: #376fcd;
+     border: #376fcd;
+ }
 
-#logo{
-    height: 12vh;
-    width: 13vw;
-    /* margin-left: 61px; */
-    /* margin-bottom: 10px; */
-    margin-right: 23px;
-    margin-left: 41px;
-    /* margin-top: 10px; */
+ .footer{
+    width: 100%;
+    height: 68px;
+    /* background-color: #d1a015; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 .5rem 1rem;
+    background-image: linear-gradient(to left, #3c78d6 , #011b78);
 }
 
-.menuLogin{
-    
-background-color: #ebf4f1;
-    
-width: auto;
-    
-border-radius: 6px;
+.footer p{
+    color: #f3eeee;
+    margin-top: 14px;
+    /* font-weight: bold; */
 }
 
+
+/* confirmar uso */
 .headerNavbar{
     display: flex;
-    /* background-color: #000fc7; */
     width: 100%;
-    /* border-radius-top: 10px; */
     box-shadow: black;
     -webkit-box-shadow: 20px 3px 17px rgba(50, 50, 50, 0.77);
     -moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
@@ -167,75 +202,38 @@ border-radius: 6px;
     background-image: linear-gradient(to left, #3e7bd9 , #011a77 );
  }
 
+/* confirmar uso */
  #upHeader{
     width: 100%;
-    /* background-image: linear-gradient(to left, #f0f0f37a , #ffffff); */
     height: 102px;
     align-items: center;
     display: flex;
     background-image: url("../imagens/img-home/banner17.jpg");
     background-position-y: -126px;
-    background-position-x: -505px;
+    background-position-x: -505px;  
+    /* background-image: linear-gradient(to left, #f0f0f37a , #ffffff); */
     /* background-repeat: no-repeat; */
     /* background-size: cover; */
  }
 
- .logado{
+ /* .logado{
     list-style-type: none;
     width: 100%;
     display: flex;
     justify-content: flex-end;
     margin-right: 56px;
     align-items: center;
- }
+ } */
 
- .logado a{
+ /* .logado a{
      color: #245676;
      font-size: .90rem;
      font-weight: 700;
-     /* text-shadow: 3px 4px 8px; */
-     /* text-shadow: 2px 3px 4px; */
-     /* border: 1px solid #245676; */
- }
-
- .gaveta-icones{
-    display: flex;
-    width: 145px;
-    height: 29px;
-    /* justify-content: center; */
-    align-items: center;
-    color: #fff;
-    justify-content: flex-end;
-    margin-left: 23px;
-    margin-bottom: -2px;
-}
-
-.icone{
-    width: 2vw;
-    height: 3vh;
-}
+ } */
 
 
-
-.redes-sociais{
-    width: 20px;
-    height: 20px;
-}
-
-#botaoHeader1{
-   background-color: #ff8f04;
-   border: #ff8f04;
-}
-
-#botaoHeader2{
-
-    background-color: #376fcd;
-    border: #376fcd;
-}
 
 /* css para home - index */
-
-
 #carousel-1{
     background-image: url("../imagens/img-home/banner28.jpg");
     background-position-y: -247px;
@@ -246,13 +244,9 @@ border-radius: 6px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* margin-top: 0px; */
     margin-left: 0px;
-    /* box-shadow: 2px 6px 12px black; */
     width: 99.8vw;
-    /* border-radius: 7px; */
 }
-
 
 #carousel-2{
     background-image: url("../imagens/img-home/banner21.jpg");
@@ -264,13 +258,11 @@ border-radius: 6px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* margin-top: 0px; */
     margin-left: -14px;
-    /* box-shadow: 2px 6px 12px black; */
     width: 99.8vw;
 }
 
-    #carousel-3{
+#carousel-3{
     background-image: url("../imagens/img-home/banner23.jpg");
     background-position-y: -21px;
     height: 89vh;
@@ -280,62 +272,40 @@ border-radius: 6px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* margin-top: 0px; */
     margin-left: -15px;
-    /* box-shadow: 2px 6px 12px black; */
     width: 99.8vw;
 }
 
+#texto-index{
+    color: rgb(31, 29, 29);
+    height: 177px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 58px;
+    margin-left: -196px;
+    text-shadow: #000000 -2px 0px 20px;
+    align-items: center;
+}
+    
+#texto-index h2{
+    font-weight: bold;
+    font-size: 3.8rem;
+    color: #ffffff;
+}
 
-
-
+#texto-index p{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-left: 41px;
+    text-align: center;
+}
 
 .cards-home{
     display: flex;
     height: auto;
-}
-
-#texto-index{
-
-color: rgb(31, 29, 29);
-
-height: 177px;
-
-/* width: 100%; */
-
-/* margin-left: 257px; */
-
-/* text-align: center; */
-
-/* text-shadow: 0 0 0.2em; */
-
-display: flex;
-
-flex-direction: column;
-
-justify-content: center;
-
-/* font-size: 31px; */
-
-padding: 50px;
-
-margin-top: 58px;
-
-/* margin-bottom: 8px; */
-
-margin-left: -196px;
-
-/* align-items: flex-start; */
-
-/* margin-right: 201px; */
-
-text-shadow: #000000 -2px 0px 20px;
-
-/* text-align: center; */
-
-align-items: center;
-
-/* border-radius: 60px; */
 }
 
 .texto-index-2{
@@ -349,103 +319,57 @@ align-items: center;
     background-color: azure;
 }
 
-
-
-.botao-tres{
+.botao-index{
     background-color: #376fcd;
     border: #376fcd;
-    /* width: 20vw; */
     font-size: 1.1rem;
     display: flex;
     text-align: center;
     justify-content: center;
-    /* font-weight: bold; */
 }
 
 
-#texto-index h2{
-    font-weight: bold;
-    font-size: 3.8rem;
-    color: #ffffff;
-}
-#texto-index p{
-    font-weight: bold;
-    font-size: 1.5rem;
-    color: #ffffff;
-    /* width: 680px; */
-    margin-left: 41px;
-    text-align: center;
-    /* text-shadow: #000000 -2px 0px 20px; */
+
+/* css register e login */
+.formRegister{
+    border: 1px solid #ced4da;
+    border-radius: 20px;
+    height: 183vh;
+    width: 150vw;
+    background-color: white;
+    margin-top: 118px;
 }
 
+#dadosPessoais{
+    margin-top: 50px;
+}
 
-/* #efeito-img #logo{
-    opacity: none;
+.textoLogin{
+    margin-top: 171px;
+}
 
-} */
-
-/* #efeito-img{
-    background: transparent linear-gradient(180deg, #6C648B 0%, #B6A19E 100%) 0% 0% no-repeat padding-box;
-    opacity: 0.7;
-
-} */
-
-
-/* .indexH2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3.5rem;
-    /* position: absolute; */
-/* } */
-
-/* .indexP {
-    font-size: 1.5rem;
-    display: flex;
-    align-items: center;
-} */
-
-.desapegoHome1{
+/* .formCadastro{
+    margin-top: 144px;
+    border: 1px solid #ced4da;
+    border-radius: 20px;
+    height: 1051px;
     width: 100%;
-    height: 249px;
-    background-image: url(../imagens/img-home/desapego5.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-y: -37px;
-}
+    background-color: white;
+} */
 
-.caronasHome1{
-    width: 100%;
-    height: 249px;
-    /* background-color: #ce9c00; */
-    background-image: url(../imagens/img-home/card-caronas.jpg);
-    /* text-shadow: 0 0 0.2em; */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-y: -109px;
-}
 
+
+/* CSS para previsao */
 .previsaoHome1{
     width: 100%;
     height: 41vh;
-    /* background-color: #ce9c00; */
     background-image: url(../imagens/img-home/previsao3.jfif);
-    /* text-shadow: 0 0 0.2em; */
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: -132px;
     background-position-x: -1px;
 }
 
-/* fim css home */
-
-
-#encontreTopo{
-    margin-top: 100px;
-}
-
-
-/* css para pagina previsao */
 .previsaoBanner {
     background-image: url("../imagens/img-home/carousel_1.png");
     background-size: cover;
@@ -458,30 +382,33 @@ align-items: center;
 
 
 
-/* css para pagina carona */
-.caronaBanner {
-    background-image: url("../imagens/img-home/carousel_2.png");
+#previsaoBanner {
+    background-image: url("../imagens/img-previsao/previgraca.jpeg");
+    background-position-y: -257px;
+    width: 100%;
+    height: 210px;
     background-size: cover;
-    background-position: bottom;
-    height: 200px;
+    background-repeat: no-repeat;
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
-}
-
-.caronaTextoBanner {
-    color: #ffffffe1;
-    font-size: 4.6rem;
-    filter: drop-shadow(31px 22px 12px black);
-    width: 899px;
-    height: 100px;
-    text-align: center;
+    margin-top: 80px;
 }
 
 
 
-/* css para desapego */
-.despegoBanner {
+/* CSS para desapego */
+/* CSS para desapego - hmoe */
+.desapegoHome1{
+    width: 100%;
+    height: 249px;
+    background-image: url(../imagens/img-home/desapego5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -37px;
+}
+
+.desapegoBanner {
     background-image: url("../imagens/img-desapego/banner4.png");
     background-position-y: 1px;
     width: 100%;
@@ -494,34 +421,6 @@ align-items: center;
     margin-top: 80px;
 }
 
-.frontBanner{
-    background: rgba(0, 33, 94, 0.4) 0% 0% no-repeat padding-box;
-    border: 1px solid rgba(112, 112, 112, 1);
-    opacity: 1;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.textoBanner {
-    color: #ffffffe1;
-    font-family: Stencil Std, fantasy;
-    font-size: 79px;
-    filter: drop-shadow(31px 22px 12px black);
-    width: 566px;
-    height: 94px;
-    text-align: center;
-    justify-content: center;
-}
-
-.imagemcards-desapego {
-    height: 50vh;
-    background-image: cover;
-}
-
 #desapego {
     height: auto;
     display: flex;
@@ -531,9 +430,52 @@ align-items: center;
     margin-bottom: 30px;
 }
 
-/* .cards-desapego{
-    
-} */
+#desapegar{
+    color: #e5e7e7;
+    font-weight: bold;
+    display: flex;
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: -17px;
+}
+
+#desapegar3{
+    color: #131415;
+    width: 77%;
+    text-align: center;
+    margin-top: 94px;
+}
+
+#desapegar3 h4{
+    font-size: 2.5rem;
+}
+
+.titulodeSecaoDesapego{
+    /* font-family: aloha; */
+    color: #ff8f04;
+    height: 39px;
+    margin-bottom: 18px;
+    margin-top: 102px;
+    text-align-last: center;
+}
+
+.titulodeSecaoDesapego h3{
+    font-size: 2.3rem;
+    font-weight: 600;
+    /* font-family: Stencil Std, fantasy; */
+}
+
+.cardHomeDesapego{
+    /* width: 81vw; */
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: none;
+}
 
 .cardOfertaDesapego{
     height: 83vh;
@@ -542,81 +484,6 @@ align-items: center;
     margin-bottom: 10px;
     box-shadow: 1px 1px 5px grey;
     color: #0c0c0c;
-}
-
-
-
-.img-oferta-individual {
-    width: 50vw;
-    height: 80vh;
-    box-shadow: 1 px;
-    box-shadow: 1px 1px 5px grey;
-}
-
-#desapegar{
-
-/* align-items: flex-end; */
-
-color: #e5e7e7;
-
-font-weight: bold;
-
-display: flex;
-
-/* background-position-y: -29px; */
-
-height: 25vh;
-
-justify-content: center;
-
-align-items: center;
-
-flex-wrap: nowrap;
-
-margin-top: -17px;
-}
-
-/* #desapegar a{
-    text-decoration: none;
-} */
-
-/* #desapegar a:hover */
-#desapegar a:hover{
-  width: 100%;
-  display: flex;
-  text-decoration: none;
-  font-size: 2rem;
-
-
-}
-
-
-
-#desapegar2{
-
-/* background-image: url('/imagens/img-desapego/desapegar.jfif'); */
-
-background-repeat: no-repeat;
-
-width: 3vw;
-
-height: 33vh;
-
-display: flex;
-
-justify-content: flex-end;
-}
-
-#desapegar2 img{
-    height: 40vh;
-
-}
-
-#desapegar3{
-    color: #131415;
-    width: 77%;
-    text-align: center;
-    margin-top: 94px;
 }
 
 #desapegar4{
@@ -635,77 +502,10 @@ justify-content: flex-end;
     color: #101010;
 }
 
-#desapegar3 h4{
-    
-    font-size: 2.5rem;
-}
 
 
-
-.link-desapego {
-    text-decoration: none;
-}
-
-
-.cardHomeDesapego{
-    /* width: 81vw; */
-    height: 100%;
-    justify-content: center;
-    /* justify-content: space-between; */
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    /* background-color: #c4c6c6; */
-    border: none;
-}
-
-.titulodeSecaoDesapego{
-    /* font-family: aloha; */
-    color: #ff8f04;
-    /* border-bottom: #ff8f04 1px solid; */
-    height: 39px;
-    margin-bottom: 18px;
-    margin-top: 102px;
-    /* font-size: 74px; */
-    /* font-weight: bold; */
-    text-align-last: center;
-}
-
-.titulodeSecaoDesapego h3{
-    font-size: 2.3rem;
-    font-weight: 600;
-    /* font-family: Stencil Std, fantasy; */
-}
-
-/* css desapego oferta individual */
-
-.despegoBannerIndividual{
-
-background-image: url("../imagens/img-desapego/agua-do-mar.jpg");
-
-background-position-y: -190px;
-
-width: 100%;
-
-height: 210px;
-
-background-size: cover;
-
-background-repeat: no-repeat;
-
-display: flex;
-
-justify-content: center;
-
-align-items: center;
-
-margin-top: 81px;
-}
-
-
-
-/* css cadastro desapego */
-
+/* CSS para desapego */
+/* CSS para desapego - cadastro oferta - editar oferta */
 .desapegoCadastro{
     height: 100%;
     display: flex;
@@ -726,25 +526,74 @@ margin-top: 81px;
 
 
 
-
-/* css cadastro usuario */
-
-.formCadastro{
-    margin-top: 144px;
-    /* margin-left: 100px; */
-    border: 1px solid #ced4da;
-    border-radius: 20px;
-    height: 1051px;
+/* CSS para desapego */
+/* CSS para desapego - oferta individual */
+.despegoBannerIndividual{
+    background-image: url("../imagens/img-desapego/agua-do-mar.jpg");
+    background-position-y: -190px;
     width: 100%;
-    background-color: white;
+    height: 210px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 81px;
 }
 
-#dadosPessoais{
-    margin-top: 50px;
+/* BUSCAR  CLASS ofertaIndivid */
+
+.img-oferta-individual {
+    width: 50vw;
+    height: 80vh;
+    box-shadow: 1 px;
+    box-shadow: 1px 1px 5px grey;
+}
+    
+
+    
+/* CSS para desapego */
+/* CSS para desapego - ofertas usuario */
+.img-ofertaDesapegoHistorico {
+    width: 98vw;
+    height: auto;
+    margin-top: 165px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+    
+    
+
+/* nao encontrados ainda */
+.imagemcards-desapego {
+    height: 50vh;
+    background-image: cover;
 }
 
+#desapegar a:hover{
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  font-size: 2rem;
+}
 
-/* css oferta desapego */
+#desapegar2{
+/* background-image: url('/imagens/img-desapego/desapegar.jfif'); */
+background-repeat: no-repeat;
+width: 3vw;
+height: 33vh;
+display: flex;
+justify-content: flex-end;
+}
+
+#desapegar2 img{
+    height: 40vh;
+}
+
+.link-desapego {
+    text-decoration: none;
+}
 
 .img-ofertaDesapego {
     width: 537px;
@@ -755,42 +604,15 @@ margin-top: 81px;
 }
 
 .img-ofertaDesapego:hover {
-
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
     border-top-color: black;
 }
 
-.img-ofertaDesapegoHistorico {
-    
-width: 98vw;
-    
-height: auto;
-    
-margin-top: 165px;
-    
-justify-content: center;
-    
-/* justify-content: space-between; */
-    
-display: flex;
-    
-flex-wrap: wrap;
-}
 
 
-/* css para pagina encontre */
-.frontBanner-azul {
-    background: transparent linear-gradient(180deg, #1E4256D4 0%, #032C808C 100%) 0% 0% no-repeat padding-box;
-    opacity: 1;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
+/* CSS para encontre */
 .encontreBanner {
     background-image: url("../imagens/img-encontre/surfboard.jpg");
     background-position-y: -297px;
@@ -804,9 +626,8 @@ flex-wrap: wrap;
     margin-top: 80px;
 }
 
-.encontreBotao {
-    background-color: #214dab;
-    color: #FFF;
+#encontreTopo{
+    margin-top: 100px;
 }
 
 .encontreSelecao {
@@ -815,13 +636,6 @@ flex-wrap: wrap;
     font-size: 45px;
     box-sizing: border-box;
     color: black;
-}
-
-.encontreMapa{
-    background-image: url('../imagens/img-encontre/pranchaPaisagem.jpg');
-    background-size: 500px, 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .encontreIcones{
@@ -834,13 +648,28 @@ flex-wrap: wrap;
 }
 
 .encontreMapa{
+    background-image: url('../imagens/img-encontre/pranchaPaisagem.jpg');
+    background-size: 500px, 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: flex-end;
     height: 300px;
     width: 100%;
 }
 
+
+
 /* css para pagina blog */
+.blogHome1{
+    width: 100%;
+    height: 249px;
+    background-image: url(../imagens/img-home/card-caronas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -109px;
+}
+
 .blogBanner {
     background-image: url("../imagens/img-blog/surfers.jpg");
     /* background-image: url("../imagens/img-encontre/surfboard.jpg"); */
@@ -860,7 +689,6 @@ flex-wrap: wrap;
     display: flex;
     min-width: 0;
     word-wrap: break-word;
-
     background-color: #fff;
 }
 
@@ -870,15 +698,6 @@ flex-wrap: wrap;
     height: 226px;
     width: 572px;
     background-color: white;
-}
-
-.formRegister{
-    border: 1px solid #ced4da;
-    border-radius: 20px;
-    height: 183vh;
-    width: 150vw;
-    background-color: white;
-    margin-top: 118px;
 }
 
 .textoCardBlog {
@@ -900,80 +719,12 @@ flex-wrap: wrap;
     height: auto;
 }
 
-/* css para pagina noticias */
-.noticiasBanner {
-    background-image: url("../imagens/img-noticias/pranchaPaisagem.jpg");
-    background-position-y: -297px;
-    width: 100%;
-    height: 210px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 93px;
-}
 
 
-/* css para pagina previsao */
-#previsaoBanner {
-    background-image: url("../imagens/img-previsao/previgraca.jpeg");
-    background-position-y: -257px;
-    width: 100%;
-    height: 210px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 80px;
-}
-
-.botaoAzul {
-    background: rgba(7, 237, 243, 1) 0% 0% no-repeat padding-box;
-    border: 1px solid rgba(195, 221, 255, 1);
-    opacity: 1;
-    font-weight: bold;
-    color: #FFF;
-    font-style: italic;
-}
-
-/* css login */
-
-.textoLogin{
-    margin-top: 171px;
-}
-
-/* css footer */
-
-.footer{
-    width: 100%;
-    height: 68px;
-    /* background-color: #d1a015; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 .5rem 1rem;
-    background-image: linear-gradient(to left, #3c78d6 , #011b78);
-}
-
-.footer p{
-    color: #f3eeee;
-    margin-top: 14px;
-    /* font-weight: bold; */
-
-}
-
-/* fim css footer */
-
-/* @media (max-width: 1023px){
-    .gaveta-icones{
-        margin-left: 80px;
-
-
-    }
-} */
-
+/* CSS para mobile */
+/* CSS para mobile */
+/* CSS para mobile */
+/* CSS para mobile */
 
 @media (max-width: 1200px) {
     #encontreBanner {
@@ -1068,7 +819,6 @@ flex-wrap: wrap;
         #btnHamburguer{
             height: 5vh;
             width: 8vw;
-    /* padding-right: 24px; */
             margin-right: 10px;
         }
 
@@ -1087,29 +837,14 @@ flex-wrap: wrap;
         }
 
 
-
         .encontreBanner {
             display: none;
-            /* background-image: none;
-            background-color: #1E4256;
-            height: 2%; */
         }
-        /* .encontreTextoBanner {
-            color: #1E4256;
-            font-size: 0%;
-            filter: none;
-            width: 0%;
-            height: 0%;
-        } */
         .encontreTitulo {
             width: 65%;
             font-size: 1.5rem;
         }
         .encontreMobile {
-            display: none;
-        }
-
-        .caronaBanner{
             display: none;
         }
 
@@ -1127,7 +862,7 @@ flex-wrap: wrap;
         }
 
 
-        .despegoBanner {
+        .desapegoBanner {
             display: none;
         }
         .cards-desapego {
@@ -1149,21 +884,15 @@ flex-wrap: wrap;
         .texto-card-desapego h3 {
             font-size: 1.8em;
         }
-
         .desapego-oferta {
             height: 110vh;
         }
-          .historico-caronas{
-            display: none;
-        }
+         
 
         #botaoHeader{
             margin-left: 0px;
-    /* padding: 28px; */
-         width: 100%;
-
+            width: 100%;
         }
-
         #botaoHeader1{
             background-color: #ff8f04;
             border: #ff8f04;
@@ -1175,7 +904,6 @@ flex-wrap: wrap;
             justify-content: center;
             align-items: center;
         }
-
         #botaoHeader2{
             background-color: #376fcd;
             border: #376fcd;
@@ -1186,7 +914,6 @@ flex-wrap: wrap;
             justify-content: center;
             align-items: center;
         }
-
         .divNav{
             border-bottom: 4px solid #245371;
             /* box-shadow: 0px 1px 2px black; */
@@ -1195,7 +922,6 @@ flex-wrap: wrap;
             width: 100vw;
             height: auto;
         }
-
         .cabecario ul{
             display: flex;
             justify-content: space-between;
@@ -1204,54 +930,41 @@ flex-wrap: wrap;
             align-items: baseline;
             /* font-size: 1rem; */
         }
-
-    .cabecario{
-        width: 0vw;
-        display: flex;
-        height: 74vh;
-        /* z-index: 99; */
-        /* position: fixed; */
-        justify-content: space-between;
+        .cabecario{
+            width: 0vw;
+            display: flex;
+            height: 74vh;
+            /* z-index: 99; */
+            /* position: fixed; */
+            justify-content: space-between;
+            padding: 10px;
+            margin-top: 26px;
+        }
+        nav ul li a{
+            color: #245b7e;
+            font-size: 2.0rem;
+        }
+        #logo{
+        height: 13vh;
+        width: 45vw;
         padding: 10px;
-        margin-top: 26px;
-    }
-
-    nav ul li a{
-        color: #245b7e;
-        font-size: 2.0rem;
-    }
-
-    #logo{
-    height: 13vh;
-    width: 45vw;
-    padding: 10px;
-    }
-
-
-
+        }
     }
 
 
     @media (max-width: 480px) {
-
-
         .texto-index-2{
             font-size: small;
-            
         }
-
         .h3, h3{
             font-size: 1.1rem;
         }
-
         .footer{
             width: 100%;
         }
-
         .carousel{
             display: none;
         }
-
         .footer p {
             font-size: x-small;
             margin-top: 0;
@@ -1259,8 +972,6 @@ flex-wrap: wrap;
         }
 
 
-        
-        
         .encontreBanner {
             display: none;
         }
@@ -1272,60 +983,48 @@ flex-wrap: wrap;
             display: none;
         }
 
+
         .blogMobile {
             display: none;
         }
+
 
         #desapego {
             height:540vh;
             background-color: #cccccc;
         }
-
         #desapegar {
             height: 46vh;
         }
-
         .texto-card-desapego h2 {
             font-size: 1.7em;
         }
-
         .texto-card-desapego h3 {
             font-size: 1.5em;
         }
-
         .cards-desapego {
             flex-direction: column;
             display: flex;
         }
-
         .desapego-oferta {
             height: 337vh;
         }
-
         .img-ofertaDesapego {
             height: 452px;
-        }
-        .historico-caronas{
-            display: none;
         }
     }
 
 
-    /* responsivo Encontre */
-    @media (max-width: 375px) {
-        
+    @media (max-width: 375px) {        
         .section{
             height: 20vh;
         }
-
         .h3, h3{
             font-size: 1.1rem;
         }
-
         .texto-index-2{
             font-size: xx-small; 
         }
-
         .footer p {
             font-size: x-small;
             margin-top: 0;
@@ -1340,25 +1039,18 @@ flex-wrap: wrap;
             height: 210vh;
             margin-top: 255px;
         }
-
         #desapegar {
             height: 57vh;
         }
-
         .cards-desapego {
             flex-direction: column;
             display: flex;
         }
-
         .desapego-oferta {
             height: 318vh;
         }
-
         .img-ofertaDesapego {
             height: 452px;
-        }
-        .historico-caronas{
-            display: none;
         }
 
         #logo{
@@ -1367,7 +1059,6 @@ flex-wrap: wrap;
             margin-right: 0px;
             margin-left: 0px;
         }
-
         #upHeader{
             width: 100%;
         }
@@ -1379,7 +1070,6 @@ flex-wrap: wrap;
             width: 100vw;
             height: auto;
         }
-
         .cabecario ul{
             display: flex;
             justify-content: space-between;
@@ -1387,35 +1077,29 @@ flex-wrap: wrap;
             height: 73vh;
             align-items: baseline;
         }
+        .cabecario{
+            width: 0vw;
+            display: flex;
+            height: 71vh;
+            /* z-index: 99; */
+            /* position: fixed; */
+            justify-content: space-between;
+            padding: 10px;
+            margin-top: 26px;
+        }
+        nav ul li a{
+            color: #245b7e;
+            font-size: 1.3rem;
+        }
 
-    .cabecario{
-        width: 0vw;
-        display: flex;
-        height: 71vh;
-        /* z-index: 99; */
-        /* position: fixed; */
-        justify-content: space-between;
-        padding: 10px;
-        margin-top: 26px;
-    }
 
-    nav ul li a{
-        color: #245b7e;
-        font-size: 1.3rem;
-    }
-
-    /* responsivo Desapego */
     @media (max-width: 320px) {
-
-
         .h3, h3{
             font-size: 1.1rem;
         }
-
         .texto-index-2{
             font-size: xx-small;
         }
-
         .footer p {
             font-size: x-small;
             margin-top: 0;
@@ -1426,47 +1110,35 @@ flex-wrap: wrap;
         #desapego {
             height: 182vh;
         }
-
         #desapegar {
             height: 76vh;
         }
-
         .cards-desapego {
             flex-direction: column;
             display: flex;
         }
-
         .desapego-oferta {
             height: 355vh;
         }
-        .historico-caronas{
-            display: none;
-        }
+        
 
         #botaoHeader{
             margin-left: 0px;
-    /* padding: 28px; */
-         width: 100%;
-
+            width: 100%;
         }
-
         #botaoHeader1{
             background-color: #ff8f04;
-        border: #ff8f04;
-        width: 39vw;
-        height: 8vh;
-        margin-bottom: 18px;
-
+            border: #ff8f04;
+            width: 39vw;
+            height: 8vh;
+            margin-bottom: 18px;
         }
-
         #botaoHeader2{
             background-color: #376fcd;
             border: #376fcd;
             width: 39vw;
             height: 8vh;
-
         }
-
         .divNav{
             border-bottom: 4px solid #245371;
             /* box-shadow: 0px 1px 2px black; */
@@ -1475,7 +1147,6 @@ flex-wrap: wrap;
             width: 100vw;
             height: auto;
         }
-
         .cabecario ul{
             display: flex;
             justify-content: space-between;
@@ -1483,23 +1154,20 @@ flex-wrap: wrap;
             height: 73vh;
             align-items: baseline;
         }
-
-    .cabecario{
-        width: 0vw;
-        display: flex;
-        height: 74vh;
-        /* z-index: 99; */
-        /* position: fixed; */
-        justify-content: space-between;
-        padding: 10px;
-        margin-top: 26px;
-    }
-
-    nav ul li a{
-        color: #245b7e;
-        font-size: 1.3rem;
-    }
-
+        .cabecario{
+            width: 0vw;
+            display: flex;
+            height: 74vh;
+            /* z-index: 99; */
+            /* position: fixed; */
+            justify-content: space-between;
+            padding: 10px;
+            margin-top: 26px;
+        }
+        nav ul li a{
+            color: #245b7e;
+            font-size: 1.3rem;
+        }
     }
   }
 }

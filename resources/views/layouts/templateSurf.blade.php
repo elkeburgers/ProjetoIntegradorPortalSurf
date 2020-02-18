@@ -56,7 +56,7 @@
                     
                     @guest
                     @if (Route::has('register'))
-                        <div id="botaoHeader" >
+                        <div>
                             <a href="/register" type="button" class="btn btn-primary" id="botaoHeader1">Cadastro</a>
                             <a href="/login" class="btn btn-success" id="botaoHeader2">Login</a>
                         </div>

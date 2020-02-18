@@ -41,7 +41,7 @@ Portal Surf
   
 </section>
 
-<section class=" d-flex flex-column flex-nowrap h-auto homeSection2" >
+<section class=" d-flex flex-column flex-nowrap h-auto" >
 
     <article class="text-center p-5 d-flex flex-column" style="background:#d7dfea;color: ##404147;">
         <h2 class="font-weight-bold">Quem Somos</h2>
@@ -53,7 +53,7 @@ Portal Surf
             <div class="col-6 texto-index-2">                       
                 <h3 class="font-weight-bold">Desapego</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore fuga nisi rerum porro, amet id asperiores numquam voluptas velit, commodi laboriosam voluptate! Perspiciatis nobis qui praesentium, accusantium molestiae ipsum nam?Lorem ipsum dolor sit amet consectetur.</p>
-                <a href="/desapego" class="btn btn-primary btn-lg botao-tres">Dropar</a>
+                <a href="/desapego" class="btn btn-primary btn-lg botao-index">Dropar</a>
             </div>
     </div>
  
@@ -61,9 +61,9 @@ Portal Surf
         <div class="col-6 texto-index-2"> 
             <h3 class="font-weight-bold">Blog</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore fuga nisi rerum porro, amet id asperiores numquam voluptas velit, commodi laboriosam voluptate! Perspiciatis nobis qui praesentium, accusantium molestiae ipsum nam?Lorem ipsum dolor sit amet consectetur.</p>
-            <a href="/blog" class="btn btn-primary btn-lg botao-tres">Dropar</a>
+            <a href="/blog" class="btn btn-primary btn-lg botao-index">Dropar</a>
         </div>
-        <div class="caronasHome1 col-6"></div>
+        <div class="blogHome1 col-6"></div>
     </div>
 
 
@@ -72,7 +72,7 @@ Portal Surf
             <div class="col-6    texto-index-2"> 
                 <h3 class="font-weight-bold">Previsão</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore fuga nisi rerum porro, amet id asperiores numquam voluptas velit, commodi laboriosam voluptate! Perspiciatis nobis qui praesentium, accusantium molestiae ipsum nam?Lorem ipsum dolor sit amet consectetur.</p>
-                <a href="/previsao" class="btn btn-primary btn-lg botao-tres">Dropar</a>
+                <a href="/previsao" class="btn btn-primary btn-lg botao-index">Dropar</a>
             </div>
     </div>
  

@@ -65,17 +65,9 @@ Portal Surf - Cadastro Usuario
                 <br>
 
                 <!-- Dados de endereco -->
-                <!-- <div class="form-inline mt-3">
-                    <label for="cep" class="col-sm-2">CEP:</label>
-                    <input type="text" class="form-control col-sm-3" id="cep" name="cep" placeholder="Use apenas números.">
-                    @error('cep')
-                    <div class="alert alert-danger">{{ $message }}</div>
-                    @enderror
-                </div><br> -->
-
                 <div class="form-group row text-center col-sm-12">
                     <label for="state" class="col-sm-2">Estado:</label>
-                    <input type="text" class="form-control col-sm-3" id="state" name="state" style="margin-right: 69px;">
+                    <input type="text" class="form-control col-sm-4" id="state" name="state">
                     @error('state')
                     <div class="alert alert-danger">{{ $message }}</div>
                     @enderror
@@ -90,7 +82,7 @@ Portal Surf - Cadastro Usuario
 
                 <div class="form-group row text-center col-sm-12">
                     <label for="phone1" class="col-sm-2">Telefone 01:</label>
-                    <input type="text" class="form-control col-sm-3" id="phone1" name="phone1" placeholder="Inclua DDD, use apenas números." style="margin-right: 69px;">
+                    <input type="text" class="form-control col-sm-4" id="phone1" name="phone1" placeholder="Inclua DDD, use apenas números.">
                     
                     @error('phone1')
                     <div class="alert alert-danger">{{ $message }}</div>
@@ -104,28 +96,6 @@ Portal Surf - Cadastro Usuario
                     @enderror
                 </div>
                 <br>
-
-                <!-- opcao em participar do programa de caronas -->
-                <!-- <div class="font-weight-bold">
-                        <label class="form-check-label mt-3 col-sm-10" for="programaCarona">Você quer participar do
-                            programa
-                            de
-                            caronas?
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="programaCarona" id="caronaSim"
-                                    for="programaCarona" value="sim">
-                                <label class="form-check-label" for="programaCarona">Sim</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="programaCarona" id="caronaNao"
-                                    for="programaCarona" value="nao">
-                                <label class="form-check-label" for="programaCarona">Não</label>
-                            </div> -->
-
-                <!-- @error('programaCarona')
-                            <div class="alert alert-danger">{{ $message }}</div>
-                            @enderror
-                    </div> -->
 
                 <!-- opcao em receber notificacos por email -->
                 <div class=" form-group row col-sm-12 pt-4">
@@ -168,7 +138,7 @@ Portal Surf - Cadastro Usuario
                     <!-- @empty($programaCarona)
                     <button type="submit" class="btn encontreBotao">Salvar alterações</button>
                     @endempty -->
-                    <button type="submit" class="btn encontreBotao" onclick="return validar_registerForm()">Salvar
+                    <button type="submit" class="btn btnSurf" onclick="return validar_registerForm()">Salvar
                         alterações</button>
                     <button type="reset" class="btn btn-danger">Cancelar</button>
                 </div>
@@ -181,7 +151,7 @@ Portal Surf - Cadastro Usuario
 
 <!-- botao topo -->
 <div class="container text-center mt-5 mb-2">
-    <a href="#usuarioTopo" class="btn encontreBotao ">Topo</a>
+    <a href="#usuarioTopo" class="btn btnSurf">Topo</a>
 </div>
 
 
@@ -193,7 +163,6 @@ Portal Surf - Cadastro Usuario
         var password = registerForm.password.value;
         var cpf = registerForm.cpf.value;
         var gender = registerForm.gender.value;
-        // var cep = registerForm.cep.value;
         var state = registerForm.state.value;
         var city = registerForm.city.value;
         var phone1 = registerForm.phone1.value;
@@ -240,11 +209,6 @@ Portal Surf - Cadastro Usuario
             registerForm.gender.focus();
             return false;
         }
-        // if (cep == "" || cep.length < 8) {
-        //     alert("Favor preencher um CEP válido.");
-        //     registerForm.cep.focus();
-        //     return false;
-        // }
         if (state == "") {
             alert("Campo Estado é obrigatório.");
             registerForm.state.focus();

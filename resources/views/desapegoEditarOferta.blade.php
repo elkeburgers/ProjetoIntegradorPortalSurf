@@ -6,10 +6,7 @@
 
 @section('conteudo')
 
-
         <section class="desapegoCadastro container">
-
-           
      
             <!-- formulario de cadastro de oferta -->
             <form action="{{route('ofertaDesapego.update', $ofertas->id)}}" method="POST" class="shadow-lg p-4 formDesapego"enctype="multipart/form-data">
@@ -22,7 +19,6 @@
                 </div>
             @endif
            
-
                 <h1 class="mt-2 text-center" id="ofertaCadastroTopo">Editar Oferta</h1>
                 <br>
         
@@ -72,19 +68,15 @@
                  
 
                     <!-- botoes -->
-                    <input type="submit" value="Atualizar" class="btn encontreBotao">
+                    <input type="submit" value="Atualizar" class="btn btnSurf">
                     <a href="{{route('ofertaDesapego.index')}}" class="btn btn-danger">Cancelar</a>
 
                 </form>
-           
-      
         </section>
 
         <!-- botao topo -->
         <div class="container text-center mt-5 mb-5">
-            <a href="#ofertaCadastroTopo" class="btn encontreBotao">Topo</a>
+            <a href="#ofertaCadastroTopo" class="btn btnSurf">Topo</a>
         </div>
-
-   
 
 @endsection

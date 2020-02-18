@@ -69,7 +69,7 @@ Portal Surf - Login
 
                         <div class="form-group row mb-0">
                             <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn encontreBotao">
+                                <button type="submit" class="btn btnSurf">
                                     {{ __('Dropar') }}
                                 </button>
 
@@ -87,7 +87,7 @@ Portal Surf - Login
 
                 <!-- botao para cadastro -->
                 <div class="d-flex justify-content-center mt-5 mb-5">
-                    <a href="register" class="btn encontreBotao mb-2">Primeiro acesso</a>
+                    <a href="register" class="btn btnSurf mb-2">Primeiro acesso</a>
                 </div>
 </section>
 

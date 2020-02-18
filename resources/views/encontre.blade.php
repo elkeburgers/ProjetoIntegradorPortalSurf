@@ -10,7 +10,7 @@ Encontre
 <section class="d-flex">
     <div class="encontreBanner">
         <div class="frontBanner">
-            <h1 class="mx-auto caronaTextoBanner">Encontre</h1>
+            <h1 class="mx-auto textoBanner">Encontre</h1>
         </div>
     </div>
 </section>
@@ -49,7 +49,7 @@ Encontre
             </div>
 
             <!-- botao de enviar -->
-            <button type="submit" class="btn encontreBotao" id="botao">Dropar</button>
+            <button type="submit" class="btn btnSurf" id="botao">Dropar</button>
 
             <!-- </form> -->
         </div>
@@ -62,7 +62,7 @@ Encontre
 
 <!-- botao topo -->
 <div class="container text-center mt-5 mb-5">
-    <a href="#encontreTopo" class="btn encontreBotao">Topo</a>
+    <a href="#encontreTopo" class="btn btnSurf">Topo</a>
 </div>
 
 <!-- script para api -->
